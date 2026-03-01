@@ -17,7 +17,7 @@ Otherwise it is better to install the models on a local server with GPU capabili
 
 At the end of this step the output should be .pdb files for each gene in question. We will refer to those genes as queries or query set for the rest of this tutorial. The .pdb file describes the 3d structure of a given sequence of amino-acids. The structure can be viwed by using progams like [pyMOL](https://www.pymol.org/).
 ### Step 2: Homology Search using GT-Align and Parsing Outputs
-(GtAlign)[https://github.com/minmarg/gtalign_alpha] is a protein structure alignment, superposition and search tool. It can be either installed locally on a server or you can use the web service [here](https://bioinformatics.lt/comer/gtalign/) for smaller query sets.
+[GtAlign](https://github.com/minmarg/gtalign_alpha) is a protein structure alignment, superposition and search tool. It can be either installed locally on a server or you can use the web service [here](https://bioinformatics.lt/comer/gtalign/) for smaller query sets.
 This step requires a pdb file for each query in a single directory. 
 
 If the directory name is `query_set` and GTAlign is installed locally then run the following command:
