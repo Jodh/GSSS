@@ -9,7 +9,6 @@ Aim of SHARP is to provide a series of steps that can assist scientists to find 
 We provide scripts involved with each step to allow for anyone to smoothly go through the pipeline for their own research. 
 
 ## The Pipeline
--insert image-
 ### Step 1: Predicting Structures using Alphafold3
 The structures for genes with unknown functions can be predicted using the alphafold 3 model. If you have smaller volumes of genes to predict we recommend using the web interface for [alphafold3](https://alphafoldserver.com/) or [colabfold](https://github.com/sokrypton/ColabFold). 
 
