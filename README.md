@@ -28,6 +28,8 @@ Here `--qrs` specifies where the pdb files for the query set are stored. Provide
 
 The output of gtalign will be a text file for each query gene in the `output_dir`. The text file will include a table of candidate proteins and alignment for each of those candidates. 
 
+If you want to skip the above steps we have provided example GT-Align outputs from our research [here](https://drive.google.com/drive/folders/17HHS3vhXfy5_Lsj3xZi2kRrH4NK-nqXK?usp=sharing).
+
 Run `gtalign_output_parser.py your/path/output_dir num_lines` to convert these files into a single table using:
 
 `python gtalign_output_parser.py your/path/output_dir num_lines`
